@@ -203,7 +203,8 @@ button {
 }
 
 .containerText > p{
-    font-size: 13.5px;
+    padding-top: 5px;
+    font-size: 15px;
 }
 .containerText{
     padding-top: 25px;
@@ -246,7 +247,7 @@ button {
 .announcementTable{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 19px;
     padding: 30px;
     background-color: white;
     border-radius: 8px;
