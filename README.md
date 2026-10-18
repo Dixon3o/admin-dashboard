@@ -3,10 +3,13 @@ This is one more of the The Odin Project [projects](https://www.theodinproject.c
 ## What I used
 - HTML5
 - CSS3
-## What I learned
+## What I learned 
 - Learned how to use grid
 - When to use grid and when is better to use flex
 - Flexible measurement like fr to make my layout a bit more responsive
+- repeat() function
+- How to use auto-fit and auto-fill to create grid with dynamic number of rows or columns
+- How to use auto-fit/auto-fill along with minmax() to create responsive grid
 ## Preview
 ![App screenshot](screenshots/site.png)
 ## Sources
