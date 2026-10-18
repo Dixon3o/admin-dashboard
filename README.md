@@ -4,8 +4,8 @@ This is one more of the The Odin Project [projects](https://www.theodinproject.c
 - HTML5
 - CSS3
 ## What I learned 
-- Learned how to use grid
-- When to use grid and when is better to use flex
+- Learned how to create a grid
+- When to use grid and when and when is better to use flex
 - Flexible measurement like fr to make my layout a bit more responsive
 - repeat() function
 - How to use auto-fit and auto-fill to create grid with dynamic number of rows or columns
