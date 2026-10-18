@@ -169,7 +169,8 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
+    padding-left: 18px;
 }
 .Announcements{
     grid-column: 3/4;
@@ -181,20 +182,16 @@ button {
     align-self: end;
 }
 .firstContainer, .secondContainer, .thridContainer, .fourthContainer, .fifthContainer, .sixthContainer{
-    background-color: white;
-    width: 350px;
-    height: 180px;
+    background-color: white;    
     border-left: 5px solid orange;
     border-radius: 8px;
     box-shadow: 8px 8px 12px -6px rgba(0, 0, 0, 0.15);
     display: grid;
     grid-template-rows: 1fr 50px;
 }
-.main-grid{
-    padding-left: 18px;
-}
+
 .containerText > p{
-    font-size: 12px;
+    font-size: 13.5px;
 }
 .containerText{
     padding-top: 25px;
@@ -227,3 +224,56 @@ button {
     grid-row: 4/5;
     grid-column: 2/3;
 }
+.announcementAndTrendingTable{
+    margin-right: 30px;
+    grid-column: 3/4;
+    grid-row: 2/5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.announcementTable{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px -6px rgba(0, 0, 0, 0.15);
+}
+.maintenance, .communityDay{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+.trendingTable{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    gap: 5px;
+}
+.trendingTable p{
+    justify-content: center;
+    align-self: end;
+    
+}
+.trending{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px -6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    gap: 20px;
+    padding: 25px 30px;
+}
+.firstAvatar, .secondAvatar, .thridAvatar, .fourthAvatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.avatar1, .avatar2, .avatar3,.avatar4{
+    border: 2px solid black;  
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
